@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bree Serif', serif;
+}
+.container{
+    padding: 10px;
+}
+.card{
+    border: 1px solid #d0d0d0;
+    padding: 3rem;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    text-align: center;
+}
+h1{
+    margin: 2rem 0;
+}
+.card.left{
+    width: 30%;
+}
+.card.right{
+    width: 70%;
+}
+.flex{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+.card.left .flex{
+    margin-bottom: 1rem;
+}
+.btn{
+    background-color: rgb(16, 158, 158);
+    font-size: 17px;
+    border: 2px solid rgba(4, 143, 143, 0.384);
+    color: #f7f7f7;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input{
+    width: 100%;
+    padding: 4px 6px;
+    font-size: 22px;
+    border: 2px solid rgba(4, 143, 143);
+    border-radius: 4px;
+    background-color: transparent;
+
+}
+.numbers{
+    margin-block: 2rem;
+}
+.btn{
+    width: 33%;
+    padding: 8px;
+}
+.submit .btn ,.card.right .btn{
+    width: 100%;
+}
+td{
+    width: 33%;
+}
+.btn:hover{
+    background-color: rgb(47, 202, 202);
+    color: #f7f7f7;
+}
